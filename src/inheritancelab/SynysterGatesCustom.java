@@ -10,15 +10,16 @@ package inheritancelab;
  * @author L115student
  */
 public class SynysterGatesCustom implements ElectricGuitar{
-    private String play;
-
-    public String getPlay() {
-        return play;
+   
+    public void setColor(){
+        System.out.println("Black and White");
+        
     }
-
-    public void setPlay(String play) {
-        this.play = play;
-    }
+    public getColor(String color){
+        
+        this.color=color;
+    } 
     
+    public void setInstrumentType();
     
 }
