@@ -11,4 +11,12 @@ package inheritancelab;
  */
 public interface ElectricGuitar extends Instrument {
     
+    public void setColor();
+    
+    public void setTypeOfInstrument(){
+        System.out.println("Electric Guitar");
+    }
+    public getTypeOfInstrument(String typeOfInstrument){
+        this.typeOfInstrument= typeOfInstrument;
+    }
 }
