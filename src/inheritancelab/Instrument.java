@@ -11,4 +11,9 @@ package inheritancelab;
  */
 public interface Instrument {
     
+    private String color;
+    private String typeOfInstrument;
+    
+    public void setColor();
+    public void setTypeOfInstrument();
 }
